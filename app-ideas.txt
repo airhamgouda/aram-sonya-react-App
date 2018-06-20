@@ -1,0 +1,48 @@
+---Project Ideas---
+
+// 
+Doggy Meetup App
+    - Scope:
+            Thinkful Dog Park
+    - Componenents: 
+            State Component:
+            export default class App extends React.Component {
+                   constructor(props ){
+                        super(props); 
+                        
+                        this.state = {
+                                count: 0
+            }
+            }
+            render() {
+                    return(
+                            <DogPark count={this.props.count}/>
+                    )
+            }
+            
+            Dog Park Component:
+                     <div class="dog-park">
+                        <button>Thinkful Dog Park</button>
+                        <span>Counter: 0</span>
+                    </div>
+            
+
+
+    - Reach:
+            Live feed where people can post what dog park they are going to
+            Counter for number of the app users at a specific park, for example "Sparkies Dog Park: 12 Puppers here currently!
+            Signout of 'park', or create a lifespan timer for user, automatically removing them from count of park after an hour. 
+                REACH GOAL: GPS to see what park they are currently at.
+
+
+    
+
+
+
+    Goal: 
+        Pull dog parks from a database (for dev, we will use JSON). DONE
+        Push them to the DOM as interactable elements.
+        Allow user to add park to database.
+
+
+       
